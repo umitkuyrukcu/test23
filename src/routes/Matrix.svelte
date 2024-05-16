@@ -1940,7 +1940,7 @@
 				font-size="10"
 				font-weight="bold"
 				letter-spacing="0em"
-				><tspan x="5.09668" y="432.636"> Yaşında </tspan></text
+				><tspan x="5.09668" y="432.636"> Yaş </tspan></text
 			>
 		</g>
 		<g id="10years">
@@ -1962,7 +1962,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="115.097" y="140.636"> Yaşında </tspan>
+				<tspan x="115.097" y="140.636"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="20years">
@@ -1984,7 +1984,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="400.097" y="28.6364"> Yaşında </tspan>
+				<tspan x="400.097" y="28.6364"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="30years">
@@ -2006,7 +2006,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="688.097" y="140.636"> Yaşında </tspan>
+				<tspan x="688.097" y="140.636"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="40years">
@@ -2028,7 +2028,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="795.097" y="423.636"> Yaşında </tspan>
+				<tspan x="795.097" y="423.636"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="50years">
@@ -2050,7 +2050,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="678.097" y="711.636"> Yaşında </tspan>
+				<tspan x="678.097" y="711.636"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="60years">
@@ -2072,7 +2072,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="400.097" y="823.636"> Yaşında </tspan>
+				<tspan x="400.097" y="823.636"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="70years">
@@ -2094,7 +2094,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="118.097" y="713.636"> Yaşında </tspan>
+				<tspan x="118.097" y="713.636"> Yaş </tspan>
 			</text>
 		</g>
 		<g id="years10">
