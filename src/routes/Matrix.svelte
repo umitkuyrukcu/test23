@@ -1940,7 +1940,7 @@
 				font-size="10"
 				font-weight="bold"
 				letter-spacing="0em"
-				><tspan x="5.09668" y="432.636">Yaşında</tspan></text
+				><tspan x="5.09668" y="432.636"> Yaşında </tspan></text
 			>
 		</g>
 		<g id="10years">
