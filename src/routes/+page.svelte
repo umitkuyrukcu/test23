@@ -4,8 +4,10 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta charset="utf-8" />
+	<title>Kader Matrisi Hesaplama</title>
+	<meta name="keywords" content="Kader Matrisi Hesaplama, Kader Matrisi Hesapla, Ücretsiz Kader Matrisi Hesaplayıcı">	
+<meta name="description" content="Kader Matrisi Hesaplayıcı, Doğum Tarihinden Kader Matrisi Hesaplama, Kader Metrisi Uyumluluk Hesapla">
 </svelte:head>
 
 <section>

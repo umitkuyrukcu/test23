@@ -120,7 +120,7 @@
 		'78-79': '1'
 	};
 
-	// table health
+	// Sağlık Tablosu
 	export let t1 = "t1";
 	export let t2 = "t2";
 	export let t3 = "t3";
@@ -129,33 +129,33 @@
 	export let t6 = "t6";
 	export let t7 = "t7";
 
-	// table health sum
+	// Sağlık Tablosu sum
 	export let ts1 = "ts1";
 	export let ts2 = "ts2";
 	export let ts3 = "ts3";
 
-	// birth programs
+	// Doğum Programı
 	export let m1 = "m1";
 	export let w1 = "w1";
 
-	// Пошук себе
+	// Kendini Bulmak
 	export let n1 = "n1";
 	export let n2 = "n2";
 	export let n3 = "n3";
 
-	// Соціалізація
+	// Sosyalleşme
 	export let c4 = "c4";
 	export let c5 = "c5";
 	export let c6 = "c6";
 
-	// Духовна грамотність
+	// Manevi okuryazarlık
 	export let d3 = "d3";
 
-	// Планетарна грамотність
+	// Gezegensel okuryazarlık
 	export let p5 = "p5";
 
-	// TODO: у пустому вигляді, що показуємо у матриці та таблиці - нулі чи нічого?
-	// TODO: додатковий квадрат у матриці - додаємо чи залишаємо без нього?
+// YAPILACAKLAR: boş bir formda, matriste ve tabloda ne gösteririz - sıfırlar mı yoksa hiçbir şey mi?
+// YAPILACAKLAR: matriste ekstra kare - ekle ya da onsuz bırak?
 
 
 	let birthdate = '';
@@ -208,7 +208,7 @@
 		a3 = calcNumber(a1 + e);
 		b3 = calcNumber(b1 + e);
 
-		// from 0 years to 10 years
+		// 0 yıldan 10 yıla kadar
 		years10['5'] = calcNumber(a + f);
 		years10['2-3'] = calcNumber(a + years10['5']);
 		years10['1-2'] = calcNumber(a + years10['2-3']);
@@ -217,7 +217,7 @@
 		years10['6-7'] = calcNumber(years10['7-8'] + years10['5']);
 		years10['8-9'] = calcNumber(years10['7-8'] + f);
 
-		// from 10 years to 20 years
+		// 10 yıldan 20 yıla kadar
 		years20['15'] = calcNumber(f + b);
 		years20['12-13'] = calcNumber(f + years20['15']);
 		years20['13-14'] = calcNumber(years20['12-13'] + years20['15']);
@@ -226,7 +226,7 @@
 		years20['16-17'] = calcNumber(years20['17-18'] + years20['15']);
 		years20['18-19'] = calcNumber(years20['17-18'] + b);
 
-		// from 20 years to 30 years
+		// 20 yıldan 30 yıla kadar
 		years30['25'] = calcNumber(b + g);
 		years30['22-23'] = calcNumber(b + years30['25']);
 		years30['21-22'] = calcNumber(b + years30['22-23']);
@@ -235,7 +235,7 @@
 		years30['26-27'] = calcNumber(years30['27-28'] + years30['25']);
 		years30['28-29'] = calcNumber(g + years30['27-28']);
 
-		// from 30 years to 40 years
+		// 30 yıldan 40 yıla kadar
 		years40['35'] = calcNumber(g + c);
 		years40['32-33'] = calcNumber(g + years40['35']);
 		years40['31-32'] = calcNumber(g + years40['32-33']);
@@ -244,7 +244,7 @@
 		years40['36-37'] = calcNumber(years40['37-38'] + years40['35']);
 		years40['38-39'] = calcNumber(c + years40['37-38']);
 
-		// from 40 years to 50 years
+		// 40 yıldan 50 yıla kadar
 		years50['45'] = calcNumber(c + y);
 		years50['42-43'] = calcNumber(c + years50['45']);
 		years50['41-42'] = calcNumber(years50['42-43'] + c);
@@ -253,7 +253,7 @@
 		years50['46-47'] = calcNumber(years50['45'] + years50['47-48']);
 		years50['48-49'] = calcNumber(years50['47-48'] + y);
 
-		// from 50 years to 60 years
+		// 50 yıldan 60 yıla kadar
 		years60['55'] = calcNumber(y + d);
 		years60['52-53'] = calcNumber(y + years60['55']);
 		years60['51-52'] = calcNumber(y + years60['52-53']);
@@ -262,7 +262,7 @@
 		years60['56-57'] = calcNumber(years60['57-58'] + years60['55']);
 		years60['58-59'] = calcNumber(d + years60['57-58']);
 
-		// from 60 years to 70 years
+		// 60 yaşından 70 yaşına kadar
 		years70['65'] = calcNumber(d + k);
 		years70['62-63'] = calcNumber(d + years70['65']);
 		years70['61-62'] = calcNumber(d + years70['62-63']);
@@ -271,7 +271,7 @@
 		years70['66-67'] = calcNumber(years70['67-68'] + years70['65']);
 		years70['68-69'] = calcNumber(k + years70['67-68']);
 
-		// from 70 years to 0 years
+		// 70 yaşından 0 yaşına kadar
 		years80['75'] = calcNumber(k + a);
 		years80['72-73'] = calcNumber(k + years80['75']);
 		years80['71-72'] = calcNumber(k + years80['72-73']);
@@ -280,7 +280,7 @@
 		years80['76-77'] = calcNumber(years80['77-78'] + years80['75']);
 		years80['78-79'] = calcNumber(years80['77-78'] + a);
 
-		// table health
+		// Sağlık Tablosu
 		t1 = calcNumber(a + b);
 		t2 = calcNumber(a2 + b2);
 		t3 = calcNumber(a1 + b1);
@@ -289,12 +289,12 @@
 		t6 = calcNumber(c1 + d1);
 		t7 = calcNumber(c + d);
 
-		// table health sum
+		// Sağlık Tablosu sum
 		ts1 = calcNumber(a + a2 + a1 + a3 + e + c1 + c);
 		ts2 = calcNumber(b + b2 + b1 + b3 + e + d1 + d);
 		ts3 = calcNumber(t1 + t2 + t3 + t4 + t5 + t6 + t7);
 
-		// birth programs
+		// Doğum Programı
 		m1 = calcNumber(f + y)
 		w1 = calcNumber(g + k)
 
@@ -313,7 +313,7 @@
 
 <form on:submit={handleSubmit} class="flex justify-center m-6">
 	<input type="date" bind:value={birthdate} />
-	<button type="sumbit" class="ml-3 uppercase font-bold">Count</button>
+	<button type="sumbit" class="ml-3 uppercase font-bold">Hesapla</button>
 </form>
 
 <svg
@@ -1241,7 +1241,7 @@
 			font-size="12"
 			letter-spacing="0em"
 		>
-			<tspan x="0.429688" y="11.8636">лінія чоловічого роду </tspan>
+			<tspan x="0.429688" y="11.8636">Erkek Çizgisi </tspan>
 		</text>
 		<text
 			id="female-line-text"
@@ -1251,7 +1251,7 @@
 			font-size="12"
 			letter-spacing="0em"
 		>
-			<tspan x="0.408203" y="11.8636"> лінія жіночого роду </tspan>
+			<tspan x="0.408203" y="11.8636"> Kadın Çizgisi </tspan>
 		</text>
 		<g id="dots-top-left">
 			<circle id="Ellipse 509" cx="362" cy="54" r="4" fill="#1E293B" />
@@ -1940,7 +1940,7 @@
 				font-size="10"
 				font-weight="bold"
 				letter-spacing="0em"
-				><tspan x="5.09668" y="432.636">&#x440;&#x43e;&#x43a;&#x456;&#x432;</tspan></text
+				><tspan x="5.09668" y="432.636">Yaşında</tspan></text
 			>
 		</g>
 		<g id="10years">
@@ -1962,7 +1962,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="115.097" y="140.636"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="115.097" y="140.636"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="20years">
@@ -1984,7 +1984,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="400.097" y="28.6364"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="400.097" y="28.6364"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="30years">
@@ -2006,7 +2006,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="688.097" y="140.636"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="688.097" y="140.636"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="40years">
@@ -2028,7 +2028,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="795.097" y="423.636"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="795.097" y="423.636"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="50years">
@@ -2050,7 +2050,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="678.097" y="711.636"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="678.097" y="711.636"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="60years">
@@ -2072,7 +2072,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="400.097" y="823.636"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="400.097" y="823.636"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="70years">
@@ -2094,7 +2094,7 @@
 				font-weight="bold"
 				letter-spacing="0em"
 			>
-				<tspan x="118.097" y="713.636"> &#x440;&#x43e;&#x43a;&#x456;&#x432; </tspan>
+				<tspan x="118.097" y="713.636"> Yaşında </tspan>
 			</text>
 		</g>
 		<g id="years10">
@@ -2491,9 +2491,9 @@
 	</defs>
 </svg>
 
-<!-- Розрахунок карти здоров’я -->
+<!-- Sağlık kartının hesaplanması-->
 <div class="w-full bg-[#F8FAFC] border-4 border-[#CBD5E1] py-9 my-8 rounded-3xl">
-	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Розрахунок карти здоров’я</h2>
+	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Sağlık kartının hesaplanması</h2>
 	<div class="flex flex-col">
 		<div class="overflow-x-auto">
 		  <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -2501,57 +2501,57 @@
 			  <table class="min-w-full text-left text-sm font-light">
 				<thead class="border-b font-medium dark:border-neutral-500">
 				  <tr>
-					<th scope="col" class="px-6 py-4">Назва чакри</th>
-					<th scope="col" class="px-6 py-4 text-center">Фізика</th>
-					<th scope="col" class="px-6 py-4 text-center">Енергія</th>
-					<th scope="col" class="px-6 py-4 text-center">Емоції</th>
+					<th scope="col" class="px-6 py-4">Çakranın adı</th>
+					<th scope="col" class="px-6 py-4 text-center">Fiziksel</th>
+					<th scope="col" class="px-6 py-4 text-center">Enerji</th>
+					<th scope="col" class="px-6 py-4 text-center">Duygular</th>
 				  </tr>
 				</thead>
 				<tbody>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-fuchsia-700">Сахасрара-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-fuchsia-700">Sahasrara Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t1}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-indigo-700">Аджа-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-indigo-700">Aja Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a2}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b2}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t2}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-cyan-500">Вішудха-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-cyan-500">Vishudha Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t3}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-green-500">Анахата-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-green-500">Anahata Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a3}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b3}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t4}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-yellow-300">Маніпура-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-yellow-300">Manipura Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{e}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{e}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t5}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-orange-400">Свадхістана-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-orange-400">Swadhistana Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{c1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{d1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t6}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-red-500">Муладхара-чакра</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-red-500">Muladhara Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{c}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{d}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t7}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-zinc-500">Сума</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-zinc-500">Miktar</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{ts1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{ts2}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{ts3}</td>
@@ -2564,11 +2564,11 @@
 	  </div>
 </div>
 
-<!-- Розрахунок родових програм -->
+<!-- Doğum programlarının hesaplanması -->
 <div class="w-full bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 my-8 rounded-3xl">
-	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Розрахунок родових програм</h2>
+	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Doğum programlarının hesaplanması</h2>
 	<div class="flex justify-center items-center mb-3">
-		<p class="w-2/3">Родові програми по чоловічій лінії</p>
+		<p class="w-2/3">Erkek hattında aile programları</p>
 		<ul class="flex justify-start items-center gap-10 w-1/3">
 			<li>{f}</li>
 			<li>{y}</li>
@@ -2576,7 +2576,7 @@
 		</ul>
 	</div>
 	<div class="flex justify-center items-center mb-3">
-		<p class="w-2/3">Родові програми по жіночій лінії</p>
+		<p class="w-2/3">Kadın hattında doğum programları</p>
 		<ul class="flex justify-start items-center gap-10 w-1/3">
 			<li>{g}</li>
 			<li>{k}</li>
@@ -2584,7 +2584,7 @@
 		</ul>
 	</div>
 	<div class="flex justify-center items-center mb-3">
-		<p class="w-2/3">Код внутрішньої сили</p>
+		<p class="w-2/3">İç gücün kodu</p>
 		<ul class="flex justify-start items-center gap-10 w-1/3">
 			<li>{e}</li>
 			<li>{e1}</li>
@@ -2592,7 +2592,7 @@
 		</ul>
 	</div>
 	<div class="flex justify-start items-center">
-		<p class="w-2/3">Сила роду</p>
+		<p class="w-2/3">Aile gücü</p>
 		<span>{e1}</span>
 	</div>
 </div>
@@ -2601,17 +2601,17 @@
 <div class="flex flex-wrap grow gap-8">
 	<!-- Пошук себе -->
 	<div class="grow bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 rounded-3xl">
-		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Пошук себе</h2>
+		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Kendini bulmak</h2>
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="w-6/12">
 				<div class="flex items-center justify-between mb-4">
-					<p>Лінія Неба:</p>
+					<p>Gökyüzü çizgisi:</p>
 					<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 						<span class="font-bold">{n1}</span>
 					</div>
 				</div>
 				<div class="flex items-center justify-between">
-					<p>Лінія Землі:</p>
+					<p>Toprak hattı:</p>
 					<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 						<span class="font-bold">{n2}</span>
 					</div>
@@ -2624,9 +2624,9 @@
 		</div>
 	</div>
 
-	<!-- Соціалізація -->
+	<!-- Sosyalleşme -->
 	<div class="basis-6/12 bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 rounded-3xl">
-		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Соціалізація</h2>
+		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Sosyalleşme</h2>
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="w-6/12">
 				<div class="flex items-center justify-between mb-4">
@@ -2649,9 +2649,9 @@
 		</div>
 	</div>
 
-	<!-- Духовна грамотність -->
+	<!-- Manevi okuryazarlık -->
 	<div class="grow bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 rounded-3xl">
-		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Духовна грамотність</h2>
+		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Manevi okuryazarlık</h2>
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 				<span class="font-bold">{d3}</span>
