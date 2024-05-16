@@ -2493,7 +2493,7 @@
 
 <!-- Sağlık kartının hesaplanması-->
 <div class="w-full bg-[#F8FAFC] border-4 border-[#CBD5E1] py-9 my-8 rounded-3xl">
-	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Sağlık kartının hesaplanması</h2>
+	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Sağlık Haritası</h2>
 	<div class="flex flex-col">
 		<div class="overflow-x-auto">
 		  <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
@@ -2501,7 +2501,7 @@
 			  <table class="min-w-full text-left text-sm font-light">
 				<thead class="border-b font-medium dark:border-neutral-500">
 				  <tr>
-					<th scope="col" class="px-6 py-4">Çakranın adı</th>
+					<th scope="col" class="px-6 py-4">Çakra</th>
 					<th scope="col" class="px-6 py-4 text-center">Fiziksel</th>
 					<th scope="col" class="px-6 py-4 text-center">Enerji</th>
 					<th scope="col" class="px-6 py-4 text-center">Duygular</th>
@@ -2509,49 +2509,49 @@
 				</thead>
 				<tbody>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-fuchsia-700">Sahasrara Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-fuchsia-700">Taç Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t1}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-indigo-700">Aja Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-indigo-700">Üçüncü Göz Çakrası</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a2}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b2}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t2}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-cyan-500">Vishudha Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-cyan-500">Boğaz Çakrası</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t3}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-green-500">Anahata Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-green-500">Kalp Çakrası</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{a3}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{b3}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t4}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-yellow-300">Manipura Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-yellow-300">Solar Pleksus</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{e}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{e}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t5}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-orange-400">Swadhistana Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-orange-400">Sakral Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{c1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{d1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t6}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-red-500">Muladhara Çakra</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-red-500">Kök Çakra</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{c}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{d}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{t7}</td>
 				  </tr>
 				  <tr class="border-b dark:border-neutral-500">
-					<td class="whitespace-nowrap px-6 py-4 font-medium text-zinc-500">Miktar</td>
+					<td class="whitespace-nowrap px-6 py-4 font-medium text-zinc-500">Toplamlar</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{ts1}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{ts2}</td>
 					<td class="whitespace-nowrap px-6 py-4 text-center">{ts3}</td>
@@ -2566,9 +2566,9 @@
 
 <!-- Doğum programlarının hesaplanması -->
 <div class="w-full bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 my-8 rounded-3xl">
-	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Doğum programlarının hesaplanması</h2>
+	<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Doğum Programı Hesaplaması</h2>
 	<div class="flex justify-center items-center mb-3">
-		<p class="w-2/3">Erkek hattında aile programları</p>
+		<p class="w-2/3">Erkek Çizgisi Aile Programları</p>
 		<ul class="flex justify-start items-center gap-10 w-1/3">
 			<li>{f}</li>
 			<li>{y}</li>
@@ -2576,7 +2576,7 @@
 		</ul>
 	</div>
 	<div class="flex justify-center items-center mb-3">
-		<p class="w-2/3">Kadın hattında doğum programları</p>
+		<p class="w-2/3">Kadın Çizgisi Aile Programları</p>
 		<ul class="flex justify-start items-center gap-10 w-1/3">
 			<li>{g}</li>
 			<li>{k}</li>
@@ -2584,7 +2584,7 @@
 		</ul>
 	</div>
 	<div class="flex justify-center items-center mb-3">
-		<p class="w-2/3">İç gücün kodu</p>
+		<p class="w-2/3">İç Gücü Kodu</p>
 		<ul class="flex justify-start items-center gap-10 w-1/3">
 			<li>{e}</li>
 			<li>{e1}</li>
@@ -2592,7 +2592,7 @@
 		</ul>
 	</div>
 	<div class="flex justify-start items-center">
-		<p class="w-2/3">Aile gücü</p>
+		<p class="w-2/3">Aile Gücü Kodu</p>
 		<span>{e1}</span>
 	</div>
 </div>
@@ -2601,17 +2601,17 @@
 <div class="flex flex-wrap grow gap-8">
 	<!-- Пошук себе -->
 	<div class="grow bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 rounded-3xl">
-		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Kendini bulmak</h2>
+		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Kendini Bulma</h2>
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="w-6/12">
 				<div class="flex items-center justify-between mb-4">
-					<p>Gökyüzü çizgisi:</p>
+					<p>Gökyüzü Hattı:</p>
 					<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 						<span class="font-bold">{n1}</span>
 					</div>
 				</div>
 				<div class="flex items-center justify-between">
-					<p>Toprak hattı:</p>
+					<p>Toprak Hattı:</p>
 					<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 						<span class="font-bold">{n2}</span>
 					</div>
@@ -2630,13 +2630,13 @@
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="w-6/12">
 				<div class="flex items-center justify-between mb-4">
-					<p>Ч:</p>
+					<p>M:</p>
 					<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 						<span class="font-bold">{c4}</span>
 					</div>
 				</div>
 				<div class="flex items-center justify-between">
-					<p>Ж:</p>
+					<p>V:</p>
 					<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 						<span class="font-bold">{c5}</span>
 					</div>
@@ -2651,7 +2651,7 @@
 
 	<!-- Manevi okuryazarlık -->
 	<div class="grow bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 rounded-3xl">
-		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Manevi okuryazarlık</h2>
+		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Manevi Okuryazarlık</h2>
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 				<span class="font-bold">{d3}</span>
@@ -2659,9 +2659,9 @@
 		</div>
 	</div>
 
-	<!-- Планетарна грамотність -->
+	<!-- Gezegensel -->
 	<div class="basis-6/12 bg-[#F8FAFC] border-4 border-[#CBD5E1] p-9 rounded-3xl">
-		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Планетарна грамотність</h2>
+		<h2 class="text-2xl tracking-wider font-thin text-center mb-6">Gezegensel</h2>
 		<div class="flex items-center justify-around text-lg w-10/12 mx-auto">
 			<div class="bg-white border-2 border-[#CBD5E1] p-3 px-4 rounded-full">
 				<span class="font-bold">{p5}</span>
