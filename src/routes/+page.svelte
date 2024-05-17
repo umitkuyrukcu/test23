@@ -11,6 +11,6 @@
 </svelte:head>
 
 <section>
-    <Datepicker datepickerFormat="dd/mm/yyyy" datepickerTitle="Дата народження" $$restProps="dasd" />
+    <Datepicker datepickerFormat="dd/mm/yyyy" datepickerTitle="Doğum Tarihinizi Giriniz" $$restProps="dasd" />
 	<Matrix />
 </section>
