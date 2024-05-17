@@ -315,7 +315,7 @@
 	<input type="date" bind:value={birthdate} />
 	<button type="sumbit" class="ml-3 uppercase font-bold">Hesapla</button>
 </form>
-<span>ader Matrisi, insan tasarımı, astroloji, numeroloji, sosyonik vb. ile birlikte kendini tanıma sistemlerinden biridir.
+<span>Kader Matrisi, insan tasarımı, astroloji, numeroloji, sosyonik vb. ile birlikte kendini tanıma sistemlerinden biridir.
 
 	En basit ama inanılmaz derecede derin sistem ve araçlardan biridir. 22 enerjinin temel hesaplamaları ve bilgisi Size yalnızca kişisel güçlü ve zayıf yönlerinizin tam bir resmini vermekle kalmayacak, aynı zamanda sizi doğumdaki görevleri hakkında da bilgilendireceklerdir. Babanız ve anneniz size amaçlarını, görevlerini ve enkarnasyonlarındaki dersleri, ortakları ve parayı hayatınıza çekmek için kişisel enerjilerini gösterecek.
 	
