@@ -315,7 +315,15 @@
 	<input type="date" bind:value={birthdate} />
 	<button type="sumbit" class="ml-3 uppercase font-bold">Hesapla</button>
 </form>
+<span>ader Matrisi, insan tasarımı, astroloji, numeroloji, sosyonik vb. ile birlikte kendini tanıma sistemlerinden biridir.
 
+	En basit ama inanılmaz derecede derin sistem ve araçlardan biridir. 22 enerjinin temel hesaplamaları ve bilgisi Size yalnızca kişisel güçlü ve zayıf yönlerinizin tam bir resmini vermekle kalmayacak, aynı zamanda sizi doğumdaki görevleri hakkında da bilgilendireceklerdir. Babanız ve anneniz size amaçlarını, görevlerini ve enkarnasyonlarındaki dersleri, ortakları ve parayı hayatınıza çekmek için kişisel enerjilerini gösterecek.
+	
+	Ama hepsi bu değil!
+	
+	Kader Matrisi'ni kullanarak, hayatınızdaki olayların altında yatan nedenleri belirleyebilir ve ayrıca hayatınızı hangi enerjinin kontrol ettiğini görebilirsiniz. Mevcut enerjilerin negatiften pozitife aktarılması için belirli bir süre ve yapılması gerekenler.
+	
+	Yöntem, doğum tarihinize ve Evrenin 22 ana enerjisi hakkındaki kadim Bilgilere dayanmaktadır. Bu yöntemin amacı Size yalnızca bir koordinat sistemi sağlamakla kalmıyor, aynı zamanda varış noktanızı iyileştirmeniz için pratik öneriler de sağlıyor.</span>
 <svg
 	width="100%"
 	height="100%"
