@@ -310,7 +310,6 @@
 		p5 = calcNumber(c6 + d3)
 	};
 </script>
-<span>Doğum Tarihi</span>
 <form on:submit={handleSubmit} class="flex justify-center m-6">
 	<input type="date" bind:value={birthdate} />
 	<button type="sumbit" class="ml-3 uppercase font-bold">Hesapla</button>
