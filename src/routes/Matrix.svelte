@@ -311,6 +311,7 @@
 	};
 </script>
 <form on:submit={handleSubmit} class="flex justify-center m-6">
+	<a>Doğum Tarihinizi Giriniz</a>
 	<input type="date" bind:value={birthdate} />
 	<button type="sumbit" class="ml-3 uppercase font-bold">Hesapla</button>
 </form>

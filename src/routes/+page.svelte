@@ -12,6 +12,6 @@
 
 <section>
     <!--<Datepicker datepickerFormat="dd/mm/yyyy" datepickerTitle="Дата народження" $$restProps="dasd" />-->
-<span>Doğum Tarihinizi Giriniz</span>
+
 	<Matrix />
 </section>
