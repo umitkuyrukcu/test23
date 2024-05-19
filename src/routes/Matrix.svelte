@@ -315,7 +315,7 @@
 	<input type="date" bind:value={birthdate} />
 	<button type="sumbit" class="ml-3 uppercase font-bold">Hesapla</button>
 </form>
-<span>Hesaplama İçin</span>
+<span style="text-align:center">Aşağıdaki Tablodaki Değerker Doğum Tarihinizi Girip Hesapla Butonuna Bastıktan Sonra Güncellenecektir</span>
 <svg
 	width="100%"
 	height="100%"
