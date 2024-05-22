@@ -18,8 +18,8 @@
 	export let d2 = 'd2';
 
 	export let e = 'e';
-	export let e1 = 'e2';
-	export let e2 = 'e1';
+	export let e1 = 'e1';
+	export let e2 = 'e2';
 
 	export let f = 'f';
 	export let g = 'g';
@@ -511,7 +511,7 @@
 			<rect x="360.5" y="361.5" width="106" height="106" rx="53" stroke="#FACC15" />
 		</g>
 
-		<g id="e1">
+		<g id="e2">
 			<circle
 				id="Ellipse 494_13"
 				cx="491.01"
@@ -533,12 +533,12 @@
 				y="416.273"
 				letter-spacing="-0.08em"
 			>
-				{e1}
+				{e2}
 			</text>
 			<rect x="467.5" y="390.5" width="47.02" height="47.02" rx="23.51" stroke="#475569" />
 		</g>
 
-		<g id="e2">
+		<g id="e1">
 			<g id="common-right-center-group">
 				<circle
 					id="common-right-center-shape"
@@ -561,7 +561,7 @@
 					text-anchor="middle"
 					dominant-baseline="middle"
 				>
-					{e2}
+					{e1}
 				</text>
 			</g>
 			<rect x="515.5" y="394.5" width="40" height="40" rx="20" stroke="#475569" />
