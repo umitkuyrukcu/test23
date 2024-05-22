@@ -18,8 +18,8 @@
 	export let d2 = 'd2';
 
 	export let e = 'e';
-	export let e1 = 'e1';
-	export let e2 = 'e2';
+	export let e1 = 'e2';
+	export let e2 = 'e1';
 
 	export let f = 'f';
 	export let g = 'g';
