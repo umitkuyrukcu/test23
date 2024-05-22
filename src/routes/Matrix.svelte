@@ -533,7 +533,7 @@
 				y="416.273"
 				letter-spacing="-0.08em"
 			>
-				{e1}
+				{e2}
 			</text>
 			<rect x="467.5" y="390.5" width="47.02" height="47.02" rx="23.51" stroke="#475569" />
 		</g>
@@ -561,7 +561,7 @@
 					text-anchor="middle"
 					dominant-baseline="middle"
 				>
-					{e2}
+					{e1}
 				</text>
 			</g>
 			<rect x="515.5" y="394.5" width="40" height="40" rx="20" stroke="#475569" />
