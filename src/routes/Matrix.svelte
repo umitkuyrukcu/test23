@@ -2679,4 +2679,5 @@
 	Kader Matrisi'ni kullanarak, hayatınızdaki olayların altında yatan nedenleri belirleyebilir ve ayrıca hayatınızı hangi enerjinin kontrol ettiğini görebilirsiniz. Mevcut enerjilerin negatiften pozitife aktarılması için belirli bir süre ve yapılması gerekenler.
 	
 	Yöntem, doğum tarihinize ve Evrenin 22 ana enerjisi hakkındaki kadim Bilgilere dayanmaktadır. Bu yöntemin amacı Size yalnızca bir koordinat sistemi sağlamakla kalmıyor, aynı zamanda varış noktanızı iyileştirmeniz için pratik öneriler de sağlıyor. Bu sitede yer alan bilgiler eğlence amaçlıdır. Kaderinizin Yönetimi Sizin Elinizdedir !
-</span>
+
+	<a href="https://isimanalizi.online" target="_blank">İsim Analizi</a> <a href="https://isimanalizi.online" target="_blank">Numeroloji</a></span>
