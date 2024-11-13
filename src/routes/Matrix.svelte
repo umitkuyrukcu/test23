@@ -2680,5 +2680,5 @@
 	
 	Yöntem, doğum tarihinize ve Evrenin 22 ana enerjisi hakkındaki kadim Bilgilere dayanmaktadır. Bu yöntemin amacı Size yalnızca bir koordinat sistemi sağlamakla kalmıyor, aynı zamanda varış noktanızı iyileştirmeniz için pratik öneriler de sağlıyor. Bu sitede yer alan bilgiler eğlence amaçlıdır. Kaderinizin Yönetimi Sizin Elinizdedir !
 
-	<a href="https://isimanalizi.online" target="_blank">İsim Analizi</a> <a href="https://nümeroloji.com" target="_blank">Numeroloji</a> .
+	<a href="https://isimanalizi.online" target="_blank">İsim Analizi</a> <a href="https://nümeroloji.com" target="_blank">Numeroloji</a>
 </span>
