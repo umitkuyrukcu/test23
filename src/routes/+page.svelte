@@ -5,7 +5,7 @@
 
 <svelte:head>
 <meta charset="utf-8" />
-<title>Kader Matrisi Hesaplama | Kader Matrix</title>
+<title>Kader Matrisi Hesaplama | Kader Matrixi</title>
 <meta name="keywords" content="Kader Matrisi Hesaplama, Kader Matrisi Hesapla, Ücretsiz Kader Matrisi Hesaplayıcı">	
 <meta name="description" content="Kader Matrisi Hesaplayıcı, Doğum Tarihinden Kader Matrisi Hesaplama, Kader Matrisi Uyumluluk Hesapla">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6506575288548257"
