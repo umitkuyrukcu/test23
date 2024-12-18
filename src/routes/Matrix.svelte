@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="kadermatrisi" data-color="#FFDD00" data-emoji="☕" data-font="Çerez" data-text="Bana Bir Kahve Ismarla" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
 
 <script>
 	export let a = 'a';
@@ -311,6 +311,7 @@
 		d3 = calcNumber(n3 + c6)
 		p5 = calcNumber(c6 + d3)
 	};
+	<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="kadermatrisi" data-color="#FFDD00" data-emoji="☕" data-font="Çerez" data-text="Bana Bir Kahve Ismarla" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 </script>
 <form on:submit={handleSubmit} class="flex justify-center m-6">
 	<span class="font-bold"style="margin-top: 8px; margin-right: 8px;">Doğum Tarihinizi Giriniz   </span>
