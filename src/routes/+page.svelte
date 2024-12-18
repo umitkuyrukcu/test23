@@ -4,6 +4,7 @@
 </script>
 
 <svelte:head>
+<meta name="google-adsense-account" content="ca-pub-6506575288548257">
 <meta charset="utf-8" />
 <title>Kader Matrisi Hesaplama | Kader Matrixi</title>
 <meta name="keywords" content="Kader Matrisi Hesaplama, Kader Matrisi Hesapla, Ücretsiz Kader Matrisi Hesaplayıcı">	
